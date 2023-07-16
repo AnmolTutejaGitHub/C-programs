@@ -2,7 +2,9 @@
 /*the original question asked was to print in reverse but at the same time
 i have to store reverse no. in a variable(so that can be used in future)
 eg x=123,so revx=321 here revx is a variable is storing reversed number,
-i am not getting that logic right now will try in future*/
+i am not getting that logic right now will try in future
+clicked: create a program to convert an int array into a single variable 
+where the values are concatenated index by index*/
 main()
 {
    int n;
