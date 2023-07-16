@@ -21,7 +21,9 @@ the program then finds and display the second largest element in the array */
   if(arr[0]>arr[1]){
     largest=arr[0];
     secondLargest= arr[1];
-  }
+  }   else
+  {largest=arr[1];
+         secondLargest=arr[0];}
 
   //Finding largest and 2nd largest element in the array
   for(i=2;i<size;i++){
