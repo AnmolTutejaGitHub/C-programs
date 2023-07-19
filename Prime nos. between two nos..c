@@ -13,7 +13,7 @@ int isPrime(int n)
     return 1; //error return 1 must be outside for loop ,
     //Otherwise, the function will return 1 after checking just
     //the first iteration of the loop, which is incorrect.
-    //return 0 will end isPrime() so no point return 1; will update return 1;
+    //return 0 will end isPrime() so no point return 1; will update return 0;
 }
 
 
