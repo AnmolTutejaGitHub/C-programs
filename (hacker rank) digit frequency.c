@@ -5,7 +5,7 @@
 // print frequency of numbers from 0-9 occuring in a string (hacker rank question digit frequency)
 int main() {
 
-    char num[1000] ={} ; //when i run it there were test cases showing error when i too num[100] and error on num[] so what is way to know size of string entered by user
+    char num[1000] ={} ; //when i run it there were test cases showing error when i took num[100] and error on num[] so what is why to know size of string entered by user
     int i;
     int j;
       scanf("%[^\n]",num);
