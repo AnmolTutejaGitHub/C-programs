@@ -1,1 +1,29 @@
+/* write a function to find index of greatest value element in an array */
+
+int maxValueIndex(int a[], int size)
+{
+    int max, maxIndex;
+
+    max=a[0];
+    maxIndex=0;
+
+    for(int i=1;i<size;i++)
+    {
+        if(a[i]>max)
+        {
+            max=a[i];
+            maxIndex=i;
+        }
+    }
+    return maxIndex;
+}
+
+int main()
+{
+    int a[]={56,67,89,98,34,67,87,23,82,100};
+    printf("index is %d",maxValueIndex(a,10));
+    getch();
+
+    return 0;
+}
 
