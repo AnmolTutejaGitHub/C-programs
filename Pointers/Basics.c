@@ -13,11 +13,11 @@ int main()
 
    x=5;
 
-   int j;             //WTF is this running? int*j is the way
+   int j;             //WTF is this running? int*j is the way, got it
    j=&x;
    printf("%d\n",j);
                       
-   int*y;
+   int*y;    //y is special variable/pointer , * is a symbol here not a dereferencing variable
    y=&x;
    printf("%d\n",y);
 
