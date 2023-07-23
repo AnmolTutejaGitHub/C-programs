@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int sum( int n);
+
+int main() {
+	
+    int n;
+    int result;
+    scanf("%d", &n);
+    //Complete the code to calculate the sum of the five digits on n.
+    result = sum(n);
+    printf("%d",result);
+    return 0;
+}
+ int sum(int n){
+     int sumActual =0;
+    for( ; n!=0 ; n=n/10){     // n!=0 TO END CONDITION OF LOOP
+    int digit = n%10 ;
+    sumActual += digit;}
+    
+      return sumActual;
+    // n = n/10; //to go to next place value
+}
