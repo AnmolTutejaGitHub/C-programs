@@ -50,6 +50,8 @@ int main()
    printf("%p\n",m);
    printf("%p\n",m+1);
 
+  int *s = NULL; // pointer isn't pointing to anything (initialisation)
+
 
    getch();
 
