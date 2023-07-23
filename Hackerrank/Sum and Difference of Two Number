@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() 
+{
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
+    int a,b,sumab,diffab;
+
+    float c,d,sumcd,diffcd;
+
+    scanf("%d %d\n" ,&a,&b);
+    sumab=a+b;
+    diffab=a-b;
+    printf("%d %d\n",sumab,diffab);
+    
+    
+    scanf("%f %f\n",&c,&d);
+    sumcd=c+d;
+    diffcd=c-d;
+    printf("%.1f %.1f\n",sumcd,diffcd);
+    
+    return 0;
+}
