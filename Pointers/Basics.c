@@ -39,6 +39,8 @@ int main()
 
    int **k = &m; // as pointing to a pointer , no. of * = pointer level, so int i is 0 level but int *m is 1st level pointer
    printf("%p\n",k);
+  //or
+  printf("%d",&m);
 
    //pointers arithematics (details in NB)
 
