@@ -2,7 +2,7 @@
 
 int main() {
     int x = 10;
-    const int* ptr1 = &x; // Pointer to constant integer: Cannot change the value pointed by ptr1 using dereference oprator but can change x directly *ptr1 = 139; is wrong we can do this but can do x=139;(directly)
+    const int* ptr1 = &x; // Pointer to constant integer: Cannot change the value pointed by ptr1 using dereference oprator, but can change x directly,  *ptr1 = 139; is wrong we can't do this , but can do x=139;(directly)
     int const* ptr2 = &x; // Also a pointer to constant integer
 
     int y = 20;
