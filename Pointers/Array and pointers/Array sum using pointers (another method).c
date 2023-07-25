@@ -4,7 +4,7 @@ int arraySum(int array[],const int n) //n -- array size , no. of elements in an 
 {
     int sum =0, *ptr;
 
-    int*const arrayEnd = array + n; // p=a+i; //arrayEnd -- pointing towards end of an array
+    int*const arrayEnd = array + n; // *p=a+i;(check this not sure) //arrayEnd -- pointing towards end of an array
 
     for(ptr = array/* p=a wala expression*/;ptr <arrayEnd ;ptr++)
         sum+=*ptr;
