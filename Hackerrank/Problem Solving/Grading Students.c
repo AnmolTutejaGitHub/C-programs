@@ -12,12 +12,11 @@ int main()
         
         if(grades[i]<=100 && grades[i]>=38)
         {
-            if(grades[i]%10 < 5 && grades[i]%10 >= 3 && grades[i]%10!=0) 
-            //as 40%10 is 0 which is less than 3
+            if(grades[i]%10 < 5 && grades[i]%10 >= 3) 
             
             grades[i]=grades[i] + (5-grades[i]%10);
             
-            if(grades[i]%10 >5 && grades[i]%10>=8 && grades[i]%10!=0)
+            if(grades[i]%10 >5 && grades[i]%10>=8)
             grades[i]=grades[i] + (10-grades[i]%10);
         }
     }
