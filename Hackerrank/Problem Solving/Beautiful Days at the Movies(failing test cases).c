@@ -15,12 +15,15 @@ int main()
     for(int i =0;i<b-a+1;i++)  //assining revarr[] values , its not array reversal but if arr[0]=21 then revarr[0] =12 
     {
         //revarr[i] = ((arr[i])%10)*10 + (arr[i]/10);  only doing for 2 digits nos.
-        while(arr[i]>0)
-        {
-      revarr[i] = ((arr[i])%10)*10;
-         arr[i]  =  arr[i]/10;
-        }
-
+        
+        int digit = 0;
+        revarr[i]=0;
+         while(arr[i]!=0)
+       {
+           digit = arr[i]%10;
+          revarr[i] = revarr[i]*10 + digit; 
+          arr[i]  =  arr[i]/10;
+       }
     }
     int count =0;
     for(int i=0;i<b-a+1;i++)
