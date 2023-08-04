@@ -12,7 +12,7 @@ int main()
 
     printf("\nEnter Elements ...... ");
     for(int i=0;i<n;i++)
-        scanf("\n%d",*(p+i));
+        scanf("\n%d",(p+i));
 
     printf("\nElements are ...... ");
     for(int i=0;i<n;i++)
