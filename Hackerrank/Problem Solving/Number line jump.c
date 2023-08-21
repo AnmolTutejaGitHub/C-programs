@@ -13,7 +13,7 @@ int main()
         printf("NO");
     } 
     
-    else  if ((x2 - x1) % (v1 - v2) == 0 && (x2 - x1) / (v1 - v2) >= 0 && (x2 - x1) / (v1 - v2) <= 10000) 
+    else  if ((x2 - x1) % (v1 - v2) == 0 )
         {
             printf("YES");
         } 
